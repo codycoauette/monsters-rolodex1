@@ -2,12 +2,13 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codycoauette.github.io/monsters-rolodex",
+  "homepage": "https://codycoauette.github.io/monsters-rolodex1",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "gh": "^2.8.6",
+    "gh-pages": "^2.2.0",
     "pages": "^0.0.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -19,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
